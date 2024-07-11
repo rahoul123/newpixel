@@ -1,0 +1,52 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * canada-type-gibson:
+ *   - http://typekit.com/eulas/00000000000000003b9b387d
+ *   - http://typekit.com/eulas/00000000000000003b9b3878
+ *   - http://typekit.com/eulas/00000000000000003b9b387c
+ *   - http://typekit.com/eulas/00000000000000003b9b3880
+ * itc-avant-garde-gothic-pro:
+ *   - http://typekit.com/eulas/00000000000000003b9b1fb3
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2019-11-21 20:44:44 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("l-4") format("woff2"),url("d-4") format("woff"),url("a-1") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("l-3") format("woff2"),url("d") format("woff"),url("a-2") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("l-2") format("woff2"),url("d-3") format("woff"),url("a") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"canada-type-gibson";
+src:url("l-1") format("woff2"),url("d-1") format("woff"),url("a-3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"itc-avant-garde-gothic-pro";
+src:url("l") format("woff2"),url("d-2") format("woff"),url("a-4") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.tk-canada-type-gibson { font-family: "canada-type-gibson",sans-serif; }
+.tk-itc-avant-garde-gothic-pro { font-family: "itc-avant-garde-gothic-pro",sans-serif; }

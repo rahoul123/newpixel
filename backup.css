@@ -1,0 +1,149 @@
+.x-backup {
+  display: none;
+  height: 100vh;
+  min-height: 600px;
+  font-family: canada-type-gibson, sans-serif;
+  line-height: 1.2;
+}
+
+.x-backup-inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.x-backup a {
+  transition: .3s ease-out;
+}
+
+.x-backup h1 {
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.15;
+  margin: 0 0 30px;
+}
+
+.x-backup p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0 0 40px;
+}
+
+.x-backup-left {
+  display: none;
+  flex: none;
+}
+
+.x-backup-right {
+  flex: none;
+  position: relative;
+  width: 100%;
+  display: flex;
+  padding: 87px 30px;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  background-position: left;
+  text-align: center;
+  color: white;
+}
+
+.x-backup-right a {
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+.x-backup-right a:hover,
+.x-backup-right a:focus,
+.x-backup-right a:active {
+  border-bottom-color: transparent;
+  color: #cf202e;
+}
+
+.x-backup-right-title span:first-child {
+  font-weight: 300;
+}
+
+.x-backup-right-video {
+  position: relative;
+  width: 50%;
+  max-width: 330px;
+  min-width: 204px;
+  height: 230px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.x-backup-right-video > video {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+@media (min-width: 1100px) {
+
+  .x-backup-left {
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .x-backup-left h1 {
+    font-weight: 300;
+  }
+
+  .x-backup h1 {
+    font-size: 83px;
+  }
+
+  .x-backup-right {
+    width: calc(100% - 400px);
+    padding: 20px;
+  }
+
+  .x-backup-right-title > span:first-child {
+    display: none;
+  }
+
+  .x-backup-left-title,
+  .x-backup-right-title {
+    margin-bottom: 0 !important;
+  }
+
+  .x-backup-right-content {
+    position: relative;
+    white-space: nowrap;
+    text-align: left;
+  }
+
+  .x-backup-right-detail {
+    position: absolute;
+  }
+
+  .x-backup-right-video {
+    position: absolute;
+    bottom: 3vw;
+    right: 10vw;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .x-backup-left {
+    width: 30%;
+  }
+
+  .x-backup-right {
+    width: 70%;
+  }
+}
